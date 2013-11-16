@@ -4,6 +4,12 @@ import javax.imageio.*;
 import java.awt.image.*;
 import java.io.*;
 
+/**
+ * ImageConverter takes an input image file and generates
+ * a Java source file that can be compiled and run to 
+ * regenerate that same image.  In other words, ImageConverter
+ * is an extremely inefficient encoding scheme for images.
+ */
 public class ImageConverter {
 
    // Coefficients to smooth out the image where we smooth over a 3x3 matrix.  
